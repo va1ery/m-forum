@@ -58,7 +58,7 @@ $("#contentPage").live("pageshow", function(prepage) {
 	$("h1", this).text(entries[selectedEntry].title);
 	var contentHTML = "";
 	contentHTML += entries[selectedEntry].description;
-	contentHTML += '<p/><a href="'+entries[selectedEntry].link + '">Источник</a>';
+	contentHTML += '<p/><a href="'+entries[selectedEntry].link + '">link</a>';
 	$("#entryText",this).html(contentHTML);
 });
 	
